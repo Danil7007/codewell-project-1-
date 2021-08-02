@@ -1,0 +1,139 @@
+.backffround{
+    background-image: url("Background.png") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#first_cast{
+    margin-top: 10%;
+    margin-left: 220px;
+    margin-right: auto; 
+    background-color: #002e41;
+    width: 500px;
+    height: 500px;
+    border-radius: 25px;
+    float: left;
+    
+}
+#second_cast{
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: 220px; 
+    background-color: #ffffff;
+    width: 500px;
+    height: 500px;
+    border-radius: 25px;
+    float: right;
+}
+
+.mtitle{
+    color: white;
+    margin-top: 10%;
+    font-size: 1.8rem;
+    font: 22pt sans-serif;  
+    
+    
+}
+.mtitle2{
+    color: black;
+    margin-top: 10%;
+    font-size: 2rem;
+    margin-left: 10%;
+    font: 30pt sans-serif;  
+}
+
+.text22 {
+    color: rgb(0, 174, 255);
+    opacity: 70%;
+    margin-top: 3%;
+    font-weight: 300px;
+}
+
+.text22, .mtitle{
+    text-align: center;
+}
+
+img{
+    width: 400px;
+    height: auto;
+    margin-top: -140px;
+    margin-left: 50px;
+}
+
+label {
+    display: block;
+    font: .9rem 'Fira Sans', sans-serif;
+}
+.new-pos{
+    margin-left: 10%;
+}
+input[type='submit'],label {
+    margin-top: 1rem;
+}
+
+#username, #pass{
+    font-size: 30px;
+}
+.us, .ps{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.sub{
+    border: 2px solid #2b2b2b ;
+    background: #002e41;
+    color: white;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 370px;
+    height: 50px;
+    border-radius: 10px;
+}
+.sub:hover{
+    border: 2px solid #2b2b2b ;
+    background: #494949;
+    color: white;
+}
+
+.checkbox{
+    margin-top: 3%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+.checkbox2{
+    font-size: 20px;
+}
+.link22{
+    font-size: 30px;
+    color: black;
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+    main{
+        max-width: 700px;
+        margin: auto;
+    }
+    #first_cast{
+       margin-left: 1%;
+    }
+    #second_cast{
+        margin-right: 1%;
+    }
+    
+    
+}
+@media screen and (min-width: 180px) and (max-width: 480px){
+    main{
+        max-width: 800px;
+        margin: auto;
+    }
+    #first_cast{
+       margin-left: 1%;
+    }
+    #second_cast{
+        margin-right: 1%;
+    }
+    
+    
+}
+
